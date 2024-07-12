@@ -21,13 +21,12 @@ html {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   width: 80%;
 }
 
 .add-background {
-  grid-column: span 2;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -51,22 +50,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
-}
-
-.action-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #00bfff;
-  color: white;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.action-button:hover {
-  background-color: #87ceeb;
+  margin: 0 auto 20px auto;
 }
 
 .sample-backgrounds {
@@ -83,8 +67,9 @@ html {
 
 .sample-images {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   gap: 10px;
+  width: 100%;
   margin-bottom: 20px;
 }
 

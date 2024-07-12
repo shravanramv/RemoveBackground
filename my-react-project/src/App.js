@@ -12,11 +12,11 @@ function App() {
           <div className="image-placeholder">
             Image without background
           </div>
-          <button className="action-button">Add new background</button>
         </div>
         <div className="sample-backgrounds">
           <h2>Sample Backgrounds</h2>
           <div className="sample-images">
+            <div className="sample-image"></div>
             <div className="sample-image"></div>
             <div className="sample-image"></div>
             <div className="sample-image"></div>
