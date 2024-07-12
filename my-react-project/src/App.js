@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="add-background">
+          <h2>Add new Background Image!</h2>
+        </div>
+        <div className="image-section">
+          <div className="image-placeholder">
+            Image without background
+          </div>
+          <button className="action-button">Add new background</button>
+        </div>
+        <div className="sample-backgrounds">
+          <h2>Sample Backgrounds</h2>
+          <div className="sample-images">
+            <div className="sample-image"></div>
+            <div className="sample-image"></div>
+            <div className="sample-image"></div>
+            <div className="sample-image"></div>
+          </div>
+          <button className="upload-button">Upload your own background</button>
+        </div>
+      </div>
     </div>
   );
 }
